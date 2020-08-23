@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: box;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+main {
+    padding: 16px;
+}
+
+nav {
+    background: #444;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ddd;
+    cursor: pointer;
+    padding: 12px;
+}
+
+nav .current > a {
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
